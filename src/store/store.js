@@ -9,17 +9,6 @@ import { configureStore } from '@reduxjs/toolkit'
 const middleWares = [process.env.NODE_ENV === 'development' && logger].filter(
   Boolean,
 )
-// const composeEnhancer =
-//   (process.env.NODE_ENV !== 'production' &&
-//     window &&
-//     window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
-//   compose;
-
-// const persistConfig = {
-//   key: 'root',
-//   storage,
-//   blacklist: ['user'],
-// };
 
 // const persistedReducer = persistReducer(persistConfig, rootReducer);
 
